@@ -2325,7 +2325,7 @@ input, select, textarea {
 			box-shadow: none;
 			border-radius: 0;
 			margin: 0 0 3em 0;
-			width: 13em;
+			width: 33em;
 		}
 
 			.image.phone img {
@@ -2337,7 +2337,7 @@ input, select, textarea {
 
 			.image.phone .inner, .image.phone:before, .image.phone:after {
 				display: block;
-				border: solid 2px rgba(255, 255, 255, 0.25);
+				border: solid 0px rgba(255, 255, 255, 0.25);
 			}
 
 			.image.phone .inner {
@@ -2353,7 +2353,7 @@ input, select, textarea {
 				.image.phone .inner:before {
 					top: -1.375em;
 					margin-left: -1em;
-					width: 2em;
+					width: 0em;
 					height: 0.25em;
 					border-radius: 0.5em;
 					background: rgba(255, 255, 255, 0.25);
@@ -2362,10 +2362,10 @@ input, select, textarea {
 				.image.phone .inner:after {
 					bottom: -2.75em;
 					margin-left: -1em;
-					width: 2em;
-					height: 2em;
+					width: 0em;
+					height: 0em;
 					border-radius: 100%;
-					border: solid 2px rgba(255, 255, 255, 0.25);
+					border: solid 0px rgba(255, 255, 255, 0.25);
 				}
 
 			.image.phone:before, .image.phone:after {
